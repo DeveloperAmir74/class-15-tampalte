@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -----menu section start------ */
+
+.w2 {
+    width: 90%;
+    margin: auto;
+    
+}
+
+.header {
+    background-color: #22c3a3;
+    height: 77px;
+    padding-top: 29px;
+}
+
+.LFWF {
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.LFWF h3 {
+    margin-top: 5px;
+    color: white;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu {
+    text-align: right;
+    margin-right: 70px;
+}
+
+.menu ul {
+    margin-top: -30px;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: -57px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* -----menu section end------*/
+
+.banner {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    background-image: url(https://i.postimg.cc/7hk9pw9P/header-bg01.jpg);
+}
+
+.banner h1 b {
+    color: white;
+    text-align: center;
+    font-size: 52px;
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    transform: translate(441px, 270px);
+}
+
+.banner h5 {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    display: inline-block;
+    transform: translate(509px, 281px);
+}
+
+.btn a {
+    transform: translate(518px, 315px);
+    color: white;
+    padding: 9px;
+    transform: translate(522%, 322px);
+    display: inline-block;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    transition: .5s;
+    color: white;
+    background: #ff3838;
+}
+
+/*<!------banner section end-------->*/
+
+.service {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service h3 {
+    font-size: 30px;
+}
+
+.mainservice {
+    display: flex;
+    margin-top: -23px;
+    margin-left: 4%;
+    padding: 114px;
+    line-height: 20px;
+    margin-right: 19px;
+    text-align: center;
+}
+.mainservice h3 {
+    line-height: 47px;
+    font-size: 24px;
+}
+
+.mainservice i {
+    font-size: 30px;
+    color: #0dbf9b;
+    height: 42px;
+}
+
+/* ------Service section end-----*/
+
+.border {
+    border-bottom: 3px solid #0dbf9b;
+    width: 100%;
+    text-align: center;
+    margin-left: -1px;
+    
+}
+
+.About {
+    margin-top: 70px;
+    text-align: center;
+
+}
+.About h2 {
+    font-size: 38px;
+}
+
+.About p {
+    line-height: 0;
+}
+
+.img img {
+    margin-left: 61px;
+    margin-top: 59px;
+}
+
+.imgtext1 {
+    text-align: left;
+    display: inline-block;
+    transform: translate(722px, 169px);
+}
+
+.imgtext2 {
+    text-align: left;
+    display: inline-block;
+    transform: translate(722px, -256px);
+}
+
+.imgtext3 {
+    text-align: left;
+    display: inline-block;
+    transform: translate(723px, -196px);
+}
+
+/*<!---Service section end------>*/
+
+.maincontactsection {
+    text-align: center;
+}
+
+.contacat p {
+    margin-top: 20px;
+}
+
+.information {
+    display: inline-block;
+}
+
+.mapicon.div1 {
+    transform: translate(312px, 99px);
+}
+
+.emailicon.div2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.imgtext3 {
+    text-align: left;
+    display: inline-block;
+    transform: translate(120px, -111px);
+}
+
+.mapicon.fa-solid {
+    text-align: center;
+}
+
+.div3 .fa-solid {
+    color: #0dbf9b;
+    text-align: center;
+    transform: translate(-50px, -5px);
+}
+
+.fa-location-pin:before,
+.fa-map-marker:before {
+    content: "\f041";
+    display: inline-block;
+    transform: translate(50px, -5px);
+}
+
+.div2::before {
+    content: '\f0e0';
+    font-weight: 900;
+    display: inline-block;
+    color: #0dbf9b;
+    transform: translate(10px, -12px);
+    font-family: "Font Awesome 5 Free";
+}
+.div1::before {
+    content: '\f879';
+    font-weight: 900;
+    display: inline-block;
+    color: #0dbf9b;
+    transform: translate(7px, -14px);
+    font-family: "Font Awesome 5 Free";
+}
+/* ---main_contact_section---Nnd---- */
+
+.social_icon {
+    width: 100%;
+    background-color: #0dbf9b;
+    color: white;
+    padding: -19px;
+    text-align: center;
+    display: inline-block;
+}
+
+.social_icon i {
+    padding: 15px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.phoneicon.div3 {
+    transform: translate(-322px, -53px);
+}
+
+/* <!-----icon_section end-------->*/
+
+.footer {
+    background-color: #202020;
+    text-align: center;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.402);
+}
+
+/* <!-----------End_project--------> */
